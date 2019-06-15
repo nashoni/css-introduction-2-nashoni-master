@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.7;
+    color: rgb(0, 0, 0);
+}
+@font-face {
+    font-family: "Roboto Regular";
+    src: url("../fonts/Roboto-Regular.ttf");
+}
+.header { 
+    height: 50vh;
+    background-image: linear-gradient(to right bottom,#d3151500, #2995a8b7), url(../images/beautiful-blur-bright-326055.jpg);
+    background-size: cover;
+    background-position: top;
+    position: relative;
+}
+.logo-box {
+    position: absolute;
+    top: 40px;
+    left: 40px;   
+}
+.logo {
+    height: 55px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(36, 102, 177);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  li a:hover {
+    background-color: #364346b7;
+  }
